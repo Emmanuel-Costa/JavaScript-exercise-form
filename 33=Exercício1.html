@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercício 1</title>
+
+        <!--CSS-->
+        <link rel="stylesheet" href="33=Exercício-1.css"/>
+
+        <!--JS-->
+        <script src="33=Exercício1.js"></script>
+
+    </head>
+    <body>
+        <h1></h1>
+        <form>
+            <div class="campo">
+                <input type="text" id="nome" placeholder="Nome" />
+            </div>
+            
+            <div class="campo">
+                <input type="email" id="email" placeholder="E-mail"/> <br />
+            </div>
+            
+            <div id="selecione">
+                <select name="Cargo" id="cargo">
+                    <option selected value="Cargo">Cargo</option>
+                    <option value="analistaDeSoftware">Analista de software</option>
+                    <option value="atendente">Atendente</option>
+                    <option value="designer">Designer</option>
+                    <option value="gerente">Gerente</option>
+                    <option value="programador">Programador</option>
+                </select> 
+            </div>
+            
+            <div id="area">
+                <textarea id="mensagem" cols="80" rows="5" placeholder="Mensagem"></textarea>
+            </div>
+            
+            <div id="button">
+                <button value="cadastrar" onclick="return validar()">Cadastrar</button>
+            </div>           
+
+        </form>
+
+
+    </body>
+</html>
